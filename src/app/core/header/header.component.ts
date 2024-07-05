@@ -1,7 +1,7 @@
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
-import { HeaderNavbarComponent } from './header-navbar/header-navbar.component';
-import { HeaderHeroComponent } from './header-hero/header-hero.component';
+import { HeaderNavbarComponent } from '../header-navbar/header-navbar.component';
+import { HeaderHeroComponent } from '../header-hero/header-hero.component';
 
 @Component({
   selector: 'app-header',
