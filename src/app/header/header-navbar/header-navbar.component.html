@@ -1,0 +1,16 @@
+<div class="header-navbar">
+  <div class="left-header-nav">
+    <img src="RiuHotel.png" alt="Riu Hotels & Resort Logo" />
+    <a href="https://www.riu.com/es/home.jsp" target="_blank">
+      <p>As you like it</p>
+    </a>
+  </div>
+  <nav class="right-header-nav">
+    <ul>
+      <li *ngFor="let link of links">
+        <a href="link.url">{{ link.label }}</a>
+      </li>
+    </ul>
+    <button class="header-navbar-button">Mi Riu Class</button>
+  </nav>
+</div>
