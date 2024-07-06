@@ -49,3 +49,22 @@
         border: 1px solid var(--highlight-purple-color);
     }
 }
+
+@media (max-width: 500px) {
+.header-navbar {
+    padding: 0 8px;
+
+    p, a, button {
+        font-size: 0.6rem;
+    }
+}    
+.left-header-nav,
+.right-header-nav,
+.right-header-nav ul {
+    gap: 5px;
+}
+
+.right-header-nav > ul {
+    display: none;
+}
+}
