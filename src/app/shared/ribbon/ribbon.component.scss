@@ -1,0 +1,16 @@
+.ribbon {
+    width: 100svw;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--secondary-bgcolor);
+    box-shadow: 2px 2px 5px 1px var(--boxshadow-color);;
+
+}
+
+@media (max-width: 500px) {
+    .ribbon {
+        height: auto;
+    }
+}

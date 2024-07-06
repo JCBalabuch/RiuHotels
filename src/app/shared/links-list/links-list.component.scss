@@ -1,0 +1,14 @@
+.link-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+@media (max-width: 500px) {
+    .link-list {
+        flex-direction: column;
+        gap:5px
+    }
+}
