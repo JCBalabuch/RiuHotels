@@ -1,0 +1,8 @@
+<section class="gallery-hotel">
+  <h3>Ver fotos del Hotel</h3>
+  <div class="gallery">
+    <div *ngFor="let image of images">
+      <img src="{{ image.src }}" alt="{{ image.alt }}" />
+    </div>
+  </div>
+</section>

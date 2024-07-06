@@ -5,10 +5,9 @@
     align-items: center;
     position: absolute;
     z-index: 2;
-    top: 58%;
+    bottom: 0;
     background-color: var(--grey3-demytranspbgcolor);
     color: var(--secondary-color);
-    border: 1px solid red;
 
     > div {
         width: 500px;
