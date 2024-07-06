@@ -1,0 +1,33 @@
+.links-footer-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    align-items: flex-start;
+    padding: 50px 0;
+    background-color: var(--grey2-bgcolor);
+    color: var(--secondary-color);
+
+    .footer-link-list {
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+
+        h4 {
+            font-weight: 500;
+            padding-bottom: 15px;
+        }
+
+        h4::after {
+            content: '';
+            display: block;
+            width: 30px;
+            height: 3px;
+            background-color: var(--main-demytranspcolor);
+            margin-top: 10px;
+        }
+    }
+}

@@ -1,4 +1,4 @@
-<ul class="link-list">
+<ul [ngClass]="getClasess()">
   <li *ngFor="let link of links">
     <app-link [link]="link"></app-link>
   </li>

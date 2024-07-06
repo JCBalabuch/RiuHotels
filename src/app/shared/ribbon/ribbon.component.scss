@@ -1,5 +1,5 @@
 .ribbon {
-    width: 100svw;
+    width: 99svw;
     height: 50px;
     display: flex;
     justify-content: center;
@@ -7,6 +7,11 @@
     background-color: var(--secondary-bgcolor);
     box-shadow: 2px 2px 5px 1px var(--boxshadow-color);;
 
+    .link-list {
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+    }
 }
 
 @media (max-width: 500px) {

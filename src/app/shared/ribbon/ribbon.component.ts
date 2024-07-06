@@ -3,7 +3,6 @@ import { Component } from '@angular/core';
 import { LinksListComponent } from '../links-list/links-list.component';
 import { LinkComponent } from '../link/link.component';
 import { Link } from '../../../models/links.interface';
-import * as linksData from '../../../data/ribbon-links.json';
 
 @Component({
   selector: 'app-ribbon',

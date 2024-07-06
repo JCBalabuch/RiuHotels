@@ -1,4 +1,4 @@
-.link-list {
+.ribbon-links {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -6,9 +6,21 @@
     gap: 50px;
 }
 
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 5px;
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
 @media (max-width: 500px) {
-    .link-list {
+    .ribbon-link-list {
         flex-direction: column;
         gap:5px
     }
+
+
 }
