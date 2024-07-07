@@ -2,6 +2,10 @@
 
 Partial replica of the layout of the RIU Plaza Panamá Hotel website, developed with Angular.
 
+## Deploy
+
+https://riuhotelsplazapanama-jcbs.netlify.app/
+
 ## Pre-requisites
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli)

@@ -53,6 +53,9 @@
                 padding: 5px;
             }
         }
+        div:hover {
+            border: 3px solid var(--highlight-purple-color);
+        }
     }
 
     @media (max-width: 500px) {
