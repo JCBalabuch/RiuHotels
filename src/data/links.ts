@@ -2,42 +2,42 @@ import { Link } from '../models/links.interface';
 
 export const linksFooter = {
     about: [
-        {
-            "url": "https://www.riu.com/es/about/historia.jsp",
-            "label": "Acerca de RIU"
-          },
-          {
-            "url": "https://www.riu.com/es/posts/videos-youtube/experiencia-unica.jsp",
-            "label": "Experiencia Única"
-          },
-          {
-            "url": "https://www.riu.com/es/proudly-committed.jsp",
-            "label": "Proudly Committed"
-          },
-          {
-            "url": "https://www.riu.com/es/canal-denuncias.jsp",
-            "label": "Canal de denuncias"
-          },
-          {
-            "url": "https://www.riu.com/es/prevencion-fraude.jsp",
-            "label": "Prevención del fraude"
-          },
-          {
-            "url": "https://www.riu.com/pdf/CodigoEticoRIUHotelsResortsES.pdf",
-            "label": "Código Ético"
-          },
-          {
-            "url": "https://www.riu.com/es/folletos_digitales/riumagazine.jsp",
-            "label": "Riu Magazine"
-          },
-          {
-            "url": "https://www.riu.com/es/news",
-            "label": "Comunicación"
-          },
-          {
-            "url": "Comunicación",
-            "label": "Política de Compliance"
-          },
+      {
+        "url": "https://www.riu.com/es/about/historia.jsp",
+        "label": "Acerca de RIU"
+      },
+      {
+        "url": "https://www.riu.com/es/posts/videos-youtube/experiencia-unica.jsp",
+        "label": "Experiencia Única"
+      },
+      {
+        "url": "https://www.riu.com/es/proudly-committed.jsp",
+        "label": "Proudly Committed"
+      },
+      {
+        "url": "https://www.riu.com/es/canal-denuncias.jsp",
+        "label": "Canal de denuncias"
+      },
+      {
+        "url": "https://www.riu.com/es/prevencion-fraude.jsp",
+        "label": "Prevención del fraude"
+      },
+      {
+        "url": "https://www.riu.com/pdf/CodigoEticoRIUHotelsResortsES.pdf",
+        "label": "Código Ético"
+      },
+      {
+        "url": "https://www.riu.com/es/folletos_digitales/riumagazine.jsp",
+        "label": "Riu Magazine"
+      },
+      {
+        "url": "https://www.riu.com/es/news",
+        "label": "Comunicación"
+      },
+      {
+        "url": "Comunicación",
+        "label": "Política de Compliance"
+      },
     ],
     services: [
       {
@@ -83,21 +83,21 @@ export const linksFooter = {
   ],
   booking: [
     {
-            "url": "https://www.riu.com/",
-            "label": "Reserva tu hotel"
-          },
-          {
-            "url": "https://www.riu.com/es/posts/codigo-corporativo.jsp",
-            "label": "Código corporativo"
-          },
-          {
-            "url": "https://www.riu.com/es/weddings",
-            "label": "RIU Bodas"
-          },
-          {
-            "url": "https://www.riu.com/es/grupos/index.jsp",
-            "label": "Reuniones y Eventos"
-          },
+        "url": "https://www.riu.com/",
+        "label": "Reserva tu hotel"
+      },
+      {
+        "url": "https://www.riu.com/es/posts/codigo-corporativo.jsp",
+        "label": "Código corporativo"
+      },
+      {
+        "url": "https://www.riu.com/es/weddings",
+        "label": "RIU Bodas"
+      },
+      {
+        "url": "https://www.riu.com/es/grupos/index.jsp",
+        "label": "Reuniones y Eventos"
+      },
   ],
   hotels: [
     {
