@@ -4,6 +4,8 @@
     justify-content: center;
     align-items: center;
     gap: 50px;
+
+
 }
 
 .footer-links {
@@ -17,10 +19,9 @@
 }
 
 @media (max-width: 500px) {
-    .ribbon-link-list {
+    .ribbon-links {
         flex-direction: column;
-        gap:5px
+        gap: 5px;
+        padding: 10px 0;
     }
-
-
 }

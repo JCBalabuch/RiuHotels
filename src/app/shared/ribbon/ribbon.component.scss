@@ -17,5 +17,6 @@
 @media (max-width: 500px) {
     .ribbon {
         height: auto;
+        flex-direction: column;
     }
 }
